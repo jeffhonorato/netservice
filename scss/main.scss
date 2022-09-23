@@ -1,0 +1,56 @@
+/****** VARIÁVEIS GLOBAIS ******/
+$fonte-titulo: 'Unica One', cursive;
+$fonte-corpo: 'Cambay', sans-serif;
+$cor-header: #FB5012;
+$cor-titulo: #8D2702;
+$cor-corpo: #878787;
+
+
+
+/****** CONFIGURAÇÕES DA PÁGINA  ******/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/****** @MIXINS  ******/
+@mixin celular {
+    @media(max-width: 420px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media(max-width: 420px) and (min-width:800px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width:800px) {
+        @content;
+    }
+}
+
+
+
+/****** MONSTAGEM DA PÁGINA   ******/
+@import "header";
