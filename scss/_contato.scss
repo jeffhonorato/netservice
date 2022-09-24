@@ -56,9 +56,22 @@
         }
 }
 
+.contato__sociais {
+    margin-top: 2rem;
+    font-family: $fonte-titulo;
+}
+
+.contato__sociais--titulo {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
 .contato__sociais--icones {
     display: flex;
     gap: .5rem;
+    justify-content: center;
+    margin-top: .7rem;
 }
 
 .contato__sociais--ico {
