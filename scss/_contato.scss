@@ -20,6 +20,7 @@
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
+   
 }
 
 .contato__box {
@@ -136,9 +137,9 @@
 }
 
 .formulario {
-    // background-color: darkmagenta;
+    box-shadow: 1px 1px 20px $cor-header;
     width: 500px;
-    height: 100vh;
+    height: 70vh;
     padding: 0rem .3rem;
     display: grid;
     align-content: center;
