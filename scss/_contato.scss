@@ -1,13 +1,29 @@
 #contato {
-    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)),
+    
+    url("../img/contato/background-contato.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100h;  
+
+        @include celular {
+            height: 300vh;
+        }
+
 }
+
 .contato__flex {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
 }
 
 .contato__box {
-    background-color: chocolate;
+    // background-color: chocolate;
     height: 100vh;
     width: 530px;
     padding: 0rem .3rem;
@@ -75,7 +91,61 @@
 }
 
 .contato__sociais--ico {
-    width: 30px;
+    width: 40px;
+
+        &:hover {
+            width: 37px;
+            transition: all .3s;
+        }
+}
+
+.formulario {
+    // background-color: darkmagenta;
+    width: 500px;
+    height: 100vh;
+    padding: 0rem .3rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.form__nome, 
+.form__email,
+.form__mensagem {
+    display: block;
+    outline: none;
+}
+
+.form__nome {
+    padding: 1rem;
+}
+
+.form__email {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form__mensagem {
+    width: 350px;
+}
+
+.form__btn {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 10%;
+    border: 1px solid #fff;
+    font-family: $fonte-titulo;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: $cor-titulo;
+    color: #fff;
+
+        &:hover {
+            background-color: #000;
+            transition: all .5s;
+        }
+
 }
 
 
