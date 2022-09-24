@@ -1132,6 +1132,15 @@ iframe {
   transition: all .5s;
 }
 
+@media (max-width: 420px) {
+  /* line 184, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  .form__btn {
+    width: 150px;
+    font-size: 1.1rem;
+    padding: .5rem;
+  }
+}
+
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
 .desenvolvedor {
   background-color: #fff;

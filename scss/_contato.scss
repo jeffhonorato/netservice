@@ -198,6 +198,12 @@
             transition: all .5s;
         }
 
+        @include celular {
+            width: 150px;
+            font-size: 1.1rem;
+            padding: .5rem;
+        }
+
 }
 
 
