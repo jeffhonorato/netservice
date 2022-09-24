@@ -39,13 +39,13 @@ img {
 }
 
 @mixin tablet {
-    @media(max-width: 420px) and (min-width:800px) {
+    @media(max-width: 420px) and (min-width: 1020px) {
         @content;
     }
 }
 
 @mixin desktop {
-    @media(min-width:800px) {
+    @media(min-width: 1020px) {
         @content;
     }
 }
