@@ -4,9 +4,6 @@
 .contato__flex {
    display: flex;
    flex-wrap: wrap;
-   gap: 2rem;
-   align-items: center;
-   justify-content: center;
 }
 
 .contato__box {
@@ -14,46 +11,59 @@
     height: 100vh;
     width: 530px;
     padding: 0rem .3rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
 
 .contato__logo {
-    width: 340px;
-    margin: 0 auto;
-    padding-bottom: 2rem;
+    width: 400px;
 }
 
-.contato__box--comunicacao {
+.contato__dados {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
-.contato__link {
-    background-color: $cor-header;
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .3rem;
-    padding: 1rem;
+.contato__telefone {
+    font-size: 1.2rem;
+    background-color: $cor-titulo;
+    padding: .5rem;
     border-radius: 10%;
-    width: 230px;
+    color: #fff;
+    font-family: $fonte-titulo;
+    border: 1px solid #fff;
+
+        &:hover {
+            background-color: #000;
+            transition: all .6s;
+        }
 }
 
 .contato__email {
-    width: 280px;
+    font-size: 1.2rem;
+    background-color: $cor-titulo;
+    padding: .5rem;
+    border-radius: 10%;
+    color: #fff;
+    font-family: $fonte-titulo;
+    border: 1px solid #fff;
+
+        &:hover {
+            background-color: #000;
+            transition: all .6s;
+        }
 }
 
-.contato__ico {
+.contato__sociais--icones {
+    display: flex;
+    gap: .5rem;
+}
+
+.contato__sociais--ico {
     width: 30px;
 }
 
-.contato__numero {
-    font-family: $fonte-titulo;
-    color: #fff;
-    font-size: 1.2rem;
-}
 
-.contato__formulario {
-    background-color: slateblue;
-}
 
