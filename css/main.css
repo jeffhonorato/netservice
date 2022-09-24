@@ -904,7 +904,7 @@ iframe {
 @media (max-width: 420px) {
   /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   #contato {
-    height: 200vh;
+    height: 190vh;
   }
 }
 
@@ -1117,6 +1117,34 @@ iframe {
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
 .desenvolvedor {
   background-color: #fff;
+  background-color: #FB5012;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .6rem;
+}
+
+/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
+.desenvolvedor__ico {
+  width: 30px;
+}
+
+/* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
+.desenvolvedor__nome {
+  font-family: "Unica One", cursive;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  padding: .3rem;
+  border-radius: 10%;
+}
+
+/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
+.desenvolvedor__nome:hover {
+  background-color: #8D2702;
+  transition: all .5s;
 }
 
 /*# sourceMappingURL=main.css.map */
