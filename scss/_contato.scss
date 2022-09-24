@@ -10,7 +10,7 @@
     height: 100h;  
 
         @include celular {
-            height: 300vh;
+            height: 200vh;
         }
 
 }
@@ -34,12 +34,24 @@
 
 .contato__logo {
     width: 400px;
+
+        @include celular {
+            width: 300px;
+            margin: 0 auto;
+        }
+
 }
 
 .contato__dados {
     display: flex;
     gap: 2rem;
     margin-top: 2rem;
+
+        @include celular {
+            display: flex;
+            flex-direction: column;
+            gap: .4rem;
+        }
 }
 
 .contato__telefone {
@@ -55,6 +67,10 @@
             background-color: #000;
             transition: all .6s;
         }
+
+        @include celular {
+            text-align: center;
+        }
 }
 
 .contato__email {
@@ -69,6 +85,10 @@
         &:hover {
             background-color: #000;
             transition: all .6s;
+        }
+
+        @include celular {
+            text-align: center;
         }
 }
 
@@ -99,6 +119,22 @@
         }
 }
 
+.formulario__titulo {
+    color: #fff;
+    font-family: $fonte-titulo;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.formulario__subtitulo {
+    color: #fff;
+    font-family: $fonte-titulo;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
 .formulario {
     // background-color: darkmagenta;
     width: 500px;
@@ -107,6 +143,10 @@
     display: grid;
     align-content: center;
     justify-content: center;
+
+        @include celular {
+            height: 70vh;
+        }
 }
 
 .form__nome, 
