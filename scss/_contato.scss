@@ -10,7 +10,7 @@
     height: 100h;  
 
         @include celular {
-            height: 190vh;
+            height: 210vh;
         }
 
 }
@@ -147,6 +147,8 @@
 
         @include celular {
             height: 70vh;
+            width: 300px;
+            padding: .5rem .2rem;
         }
 }
 
@@ -175,7 +177,7 @@
 }
 
 .form__mensagem {
-    width: 350px;
+    width: 280px;
     margin-top: 1rem;
 }
 
