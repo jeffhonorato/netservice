@@ -158,15 +158,24 @@
 
 .form__nome {
     padding: 1rem;
+
+        @include celular {
+            margin: 0 .5rem;
+        }
 }
 
 .form__email {
     padding: 1rem;
     margin-bottom: 1rem;
+
+    @include celular {
+        margin: 0 .5rem;
+    }
 }
 
 .form__mensagem {
     width: 350px;
+    margin-top: 1rem;
 }
 
 .form__btn {
