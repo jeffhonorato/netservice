@@ -1,3 +1,59 @@
 #contato {
     height: 100vh;
 }
+.contato__flex {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.contato__box {
+    background-color: chocolate;
+    height: 100vh;
+    width: 530px;
+    padding: 0rem .3rem;
+}
+
+.contato__logo {
+    width: 340px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.contato__box--comunicacao {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contato__link {
+    background-color: $cor-header;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    padding: 1rem;
+    border-radius: 10%;
+    width: 230px;
+}
+
+.contato__email {
+    width: 280px;
+}
+
+.contato__ico {
+    width: 30px;
+}
+
+.contato__numero {
+    font-family: $fonte-titulo;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.contato__formulario {
+    background-color: slateblue;
+}
+
