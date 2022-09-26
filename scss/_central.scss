@@ -76,16 +76,13 @@ iframe {
     padding: 1rem;
     border-radius: 10%;
     border: 2px solid #000;
-    text-align: center;
+    width: 200px;
+  
+    
 
         &:hover {
             transition: all .6s;
-            background-color: $cor-titulo;
             border: 2px solid #fff;
-        }
-
-        &:hover .central__card--link {
-            color: #fff;
         }
 
         @include celular {
@@ -93,21 +90,20 @@ iframe {
         }
 }
 
+
 .central__card--link {
     font-family: $fonte-titulo;
     color: #000;
-    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
         @include celular {
             font-size: 1.2rem;
         }
 }
 
-
-.central__card--a {
-    background-color: $cor-header;
-    padding: .5rem;
-}
 
 .central__card--ico {
     width: 60px;
@@ -117,4 +113,23 @@ iframe {
             width: 40px;
         }
 }
+
+.central__card--info {
+    margin-bottom: .5rem;
+}
+
+
+.central__card--a {
+    background-color: $cor-header;
+    padding: .5rem;
+    color: #000;
+    border-radius: 10%;
+        
+        &:hover {
+            background-color: $cor-titulo;
+            color: #fff;
+        }
+}
+
+
 
