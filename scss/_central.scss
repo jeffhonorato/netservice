@@ -166,7 +166,7 @@ iframe {
     // place-content: center;
     // align-items: center;
     // justify-content: center;
-    background-color: aqua;
+    background-color: #000;
     max-width: 500px;
     height: 400px;
     margin: 0 auto;
@@ -184,6 +184,14 @@ iframe {
     position: absolute;
     right: 0;
 
+    
+}
+
+.central__modal--titulo {
+    font-family: $fonte-titulo;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: .5rem;
     
 }
 

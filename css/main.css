@@ -946,7 +946,7 @@ img {
 
 /* line 165, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__modal {
-  background-color: aqua;
+  background-color: #000;
   max-width: 500px;
   height: 400px;
   margin: 0 auto;
@@ -964,6 +964,14 @@ img {
   cursor: pointer;
   position: absolute;
   right: 0;
+}
+
+/* line 190, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__modal--titulo {
+  font-family: "Unica One", cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: .5rem;
 }
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
