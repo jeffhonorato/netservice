@@ -902,7 +902,7 @@ iframe {
   z-index: 0;
 }
 
-/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__flex {
   display: flex;
   flex-wrap: wrap;
@@ -910,7 +910,7 @@ iframe {
   align-items: center;
 }
 
-/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__box {
   width: 530px;
   padding: 0rem .3rem;
@@ -920,26 +920,26 @@ iframe {
 }
 
 @media (max-width: 420px) {
-  /* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .contato__box {
     height: 85vh;
   }
 }
 
-/* line 41, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__logo {
   width: 400px;
 }
 
 @media (max-width: 420px) {
-  /* line 41, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .contato__logo {
     width: 300px;
     margin: 0 auto;
   }
 }
 
-/* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__dados {
   display: flex;
   gap: 2rem;
@@ -947,7 +947,7 @@ iframe {
 }
 
 @media (max-width: 420px) {
-  /* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .contato__dados {
     display: flex;
     flex-direction: column;
@@ -955,7 +955,7 @@ iframe {
   }
 }
 
-/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__telefone {
   font-size: 1.2rem;
   background-color: #8D2702;
@@ -966,20 +966,20 @@ iframe {
   border: 1px solid #fff;
 }
 
-/* line 72, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__telefone:hover {
   background-color: #000;
   transition: all .6s;
 }
 
 @media (max-width: 420px) {
-  /* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .contato__telefone {
     text-align: center;
   }
 }
 
-/* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__email {
   font-size: 1.2rem;
   background-color: #8D2702;
@@ -990,33 +990,33 @@ iframe {
   border: 1px solid #fff;
 }
 
-/* line 91, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 92, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__email:hover {
   background-color: #000;
   transition: all .6s;
 }
 
 @media (max-width: 420px) {
-  /* line 82, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .contato__email {
     text-align: center;
   }
 }
 
-/* line 101, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 102, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__sociais {
   margin-top: 2rem;
   font-family: "Unica One", cursive;
 }
 
-/* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__sociais--titulo {
   text-align: center;
   font-size: 2rem;
   color: #fff;
 }
 
-/* line 112, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 113, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__sociais--icones {
   display: flex;
   gap: .5rem;
@@ -1024,18 +1024,18 @@ iframe {
   margin-top: .7rem;
 }
 
-/* line 119, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 120, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__sociais--ico {
   width: 40px;
 }
 
-/* line 122, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 123, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .contato__sociais--ico:hover {
   width: 37px;
   transition: all .3s;
 }
 
-/* line 128, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 129, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .formulario__titulo {
   color: #fff;
   font-family: "Unica One", cursive;
@@ -1044,7 +1044,7 @@ iframe {
   font-size: 2rem;
 }
 
-/* line 136, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 137, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .formulario__subtitulo {
   color: #fff;
   font-family: "Unica One", cursive;
@@ -1053,7 +1053,7 @@ iframe {
   font-size: 1.4rem;
 }
 
-/* line 144, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 145, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .formulario {
   box-shadow: 1px 1px 20px #FB5012;
   width: 500px;
@@ -1065,7 +1065,7 @@ iframe {
 }
 
 @media (max-width: 420px) {
-  /* line 144, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 145, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .formulario {
     height: 70vh;
     width: 300px;
@@ -1073,7 +1073,7 @@ iframe {
   }
 }
 
-/* line 160, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 161, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .form__nome,
 .form__email,
 .form__mensagem {
@@ -1081,38 +1081,38 @@ iframe {
   outline: none;
 }
 
-/* line 167, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 168, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .form__nome {
   padding: 1rem;
 }
 
 @media (max-width: 420px) {
-  /* line 167, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 168, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .form__nome {
     margin: 0 .5rem;
   }
 }
 
-/* line 175, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 176, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .form__email {
   padding: 1rem;
   margin-bottom: 1rem;
 }
 
 @media (max-width: 420px) {
-  /* line 175, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 176, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .form__email {
     margin: 0 .5rem;
   }
 }
 
-/* line 184, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 185, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .form__mensagem {
   width: 280px;
   margin-top: 1rem;
 }
 
-/* line 189, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 190, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .form__btn {
   margin: 1rem auto;
   padding: 1rem;
@@ -1126,14 +1126,14 @@ iframe {
   color: #fff;
 }
 
-/* line 201, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+/* line 202, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 .form__btn:hover {
   background-color: #000;
   transition: all .5s;
 }
 
 @media (max-width: 420px) {
-  /* line 189, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
+  /* line 190, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
   .form__btn {
     width: 150px;
     font-size: 1.1rem;
@@ -1150,14 +1150,16 @@ iframe {
   align-items: center;
   gap: .5rem;
   padding: .6rem;
+  position: relative;
+  bottom: 0%;
 }
 
-/* line 11, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
 .desenvolvedor__ico {
   width: 30px;
 }
 
-/* line 15, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
 .desenvolvedor__nome {
   font-family: "Unica One", cursive;
   font-size: 1rem;
@@ -1168,7 +1170,7 @@ iframe {
   border-radius: 10%;
 }
 
-/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
+/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_desenvolvedor.scss */
 .desenvolvedor__nome:hover {
   background-color: #8D2702;
   transition: all .5s;
