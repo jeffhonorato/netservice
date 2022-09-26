@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 
         @include celular {
             height: 130vh;
@@ -142,5 +143,33 @@ iframe {
         }
 }
 
+/*************** MODAL ***************/
+.central__modal--box {
+    background-color: rgba(255,255,255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.central__modal {
+    // place-content: center;
+    // align-items: center;
+    // justify-content: center;
+    background-color: aqua;
+    max-width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
 
 
