@@ -974,15 +974,29 @@ img {
   right: 0;
 }
 
-/* line 195, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 192, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.modal__fechar:hover {
+  width: 57px;
+}
+
+/* line 197, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__modal--container {
+  display: grid;
+  place-content: center;
+  height: 50vh;
+}
+
+/* line 204, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__modal--titulo {
-  font-family: "Unica One", cursive;
+  font-family: "Cambay", sans-serif;
   font-size: 1.5rem;
   color: #fff;
   padding: .5rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-/* line 203, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 214, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__box--links {
   display: grid;
   grid-template-columns: 160px 160px;
@@ -993,14 +1007,14 @@ img {
 }
 
 @media (max-width: 420px) {
-  /* line 203, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 214, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__box--links {
     gap: .5rem;
     grid-template-columns: 150px 150px;
   }
 }
 
-/* line 217, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 228, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__box--link {
   display: flex;
   align-items: center;
@@ -1013,38 +1027,38 @@ img {
   border: 1px solid #fff;
 }
 
-/* line 228, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 239, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__box--link:hover {
   background-color: #fff;
   transition: all .5s;
 }
 
-/* line 233, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 244, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__box--link:hover .central__box--nome {
   color: #000;
 }
 
 @media (max-width: 420px) {
-  /* line 217, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 228, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__box--link {
     width: 120px;
     padding: .3rem;
   }
 }
 
-/* line 243, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 254, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__box--ico {
   width: 25px;
 }
 
 @media (max-width: 420px) {
-  /* line 243, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 254, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__box--ico {
     width: 20px;
   }
 }
 
-/* line 251, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 264, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__box--nome {
   font-size: 1rem;
   font-family: "Cambay", sans-serif;
@@ -1052,7 +1066,7 @@ img {
 }
 
 @media (max-width: 420px) {
-  /* line 251, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 264, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__box--nome {
     font-size: .8rem;
   }

@@ -189,14 +189,25 @@ iframe {
     position: absolute;
     right: 0;
 
-    
+        &:hover {
+            width: 57px;;
+        }
 }
 
+.central__modal--container {
+  display: grid;
+  place-content: center;
+  height: 50vh;
+}
+
+
 .central__modal--titulo {
-    font-family: $fonte-titulo;
+    font-family: $fonte-corpo;
     font-size: 1.5rem;
     color: #fff;
     padding: .5rem;
+    margin-bottom: 1rem;
+    text-align: center;
     
 }
 
@@ -242,6 +253,8 @@ iframe {
 
 .central__box--ico {
     width: 25px;
+
+      
 
         @include celular {
             width: 20px;
