@@ -128,8 +128,9 @@ iframe {
 .central__card--a {
     background-color: $cor-header;
     padding: .5rem;
-    color: #000;
+    color: #fff;
     border-radius: 10%;
+    border: 1px solid #000;
         
         &:hover {
             background-color: $cor-titulo;

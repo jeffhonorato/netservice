@@ -904,11 +904,12 @@ img {
 .central__card--a {
   background-color: #FB5012;
   padding: .5rem;
-  color: #000;
+  color: #fff;
   border-radius: 10%;
+  border: 1px solid #000;
 }
 
-/* line 134, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 135, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__card--a:hover {
   background-color: #8D2702;
   color: #fff;
