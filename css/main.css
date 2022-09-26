@@ -935,9 +935,10 @@ img {
   height: 100%;
   width: 100%;
   z-index: 2;
+  display: none;
 }
 
-/* line 159, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 160, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__modal {
   background-color: aqua;
   max-width: 500px;
