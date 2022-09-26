@@ -898,14 +898,6 @@ iframe {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100h;
-}
-
-@media (max-width: 420px) {
-  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
-  #contato {
-    height: 210vh;
-  }
 }
 
 /* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
