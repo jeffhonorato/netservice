@@ -195,4 +195,43 @@ iframe {
     
 }
 
+.central__box--links {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    place-content: center;
+    gap: 1rem;
+    height: 80%;
+}
+
+.central__box--link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    background-color: $cor-header;
+    padding: .5rem;
+    width: 150px;
+    border-radius: 10%;
+    border: 1px solid #fff;
+
+        &:hover {
+            background-color: #fff;
+            transition: all .5s;
+        }
+
+        &:hover .central__box--nome {
+            color: #000;
+        }
+}
+
+.central__box--ico {
+    width: 25px;
+}
+
+.central__box--nome {
+    font-size: 1rem;
+    font-family: $fonte-corpo;
+    color: #fff;
+}
+
 

@@ -974,6 +974,51 @@ img {
   padding: .5rem;
 }
 
+/* line 198, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__box--links {
+  display: grid;
+  grid-template-columns: 160px 160px;
+  place-content: center;
+  gap: 1rem;
+  height: 80%;
+}
+
+/* line 206, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__box--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .3rem;
+  background-color: #FB5012;
+  padding: .5rem;
+  width: 150px;
+  border-radius: 10%;
+  border: 1px solid #fff;
+}
+
+/* line 217, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__box--link:hover {
+  background-color: #fff;
+  transition: all .5s;
+}
+
+/* line 222, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__box--link:hover .central__box--nome {
+  color: #000;
+}
+
+/* line 227, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__box--ico {
+  width: 25px;
+}
+
+/* line 231, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__box--nome {
+  font-size: 1rem;
+  font-family: "Cambay", sans-serif;
+  color: #fff;
+}
+
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
 #contato {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/contato/background-contato.jpg");
