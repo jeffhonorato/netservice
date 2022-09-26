@@ -899,6 +899,7 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2.5rem 0rem;
+  z-index: 0;
 }
 
 /* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
