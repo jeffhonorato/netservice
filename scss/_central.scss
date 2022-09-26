@@ -176,6 +176,7 @@ iframe {
     bottom: 0;
     right: 0;
     overflow: auto;
+    border: 2px solid $cor-header;
 
         @include celular {
             max-width: 300px;
