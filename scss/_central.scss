@@ -176,6 +176,11 @@ iframe {
     bottom: 0;
     right: 0;
     overflow: auto;
+
+        @include celular {
+            max-width: 300px;
+            height: 400px;
+        }
 }
 
 .modal__fechar {
@@ -199,8 +204,14 @@ iframe {
     display: grid;
     grid-template-columns: 160px 160px;
     place-content: center;
+    justify-items: center;
     gap: 1rem;
     height: 80%;
+
+        @include celular {
+            gap: .5rem;
+            grid-template-columns: 150px 150px;
+        }
 }
 
 .central__box--link {
@@ -222,16 +233,29 @@ iframe {
         &:hover .central__box--nome {
             color: #000;
         }
+
+        @include celular {
+            width: 120px;
+            padding: .3rem;
+        }
 }
 
 .central__box--ico {
     width: 25px;
+
+        @include celular {
+            width: 20px;
+        }
 }
 
 .central__box--nome {
     font-size: 1rem;
     font-family: $fonte-corpo;
     color: #fff;
+
+        @include celular {
+            font-size: .8rem;
+        }
 }
 
 
