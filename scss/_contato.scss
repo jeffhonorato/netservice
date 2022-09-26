@@ -32,6 +32,10 @@
     display: grid;
     align-content: center;
     justify-content: center;
+
+        @include celular {
+            height: 85vh;
+        }
 }
 
 .contato__logo {
