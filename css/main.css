@@ -786,11 +786,6 @@ img {
   }
 }
 
-/* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
-iframe {
-  background-color: springgreen;
-}
-
 @media (max-width: 420px) {
   /* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   iframe {
@@ -799,7 +794,7 @@ iframe {
   }
 }
 
-/* line 43, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__intranet--box {
   display: flex;
   flex-wrap: wrap;
@@ -810,19 +805,19 @@ iframe {
 }
 
 @media (max-width: 420px) {
-  /* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__youtube {
     margin-top: 1.5rem;
   }
 }
 
-/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 54, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__intranet {
   margin: 0rem .8rem;
   width: 500px;
 }
 
-/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 59, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__intranet--suporte {
   font-family: "Unica One", cursive;
   font-size: 2rem;
@@ -830,7 +825,7 @@ iframe {
   margin-bottom: 1rem;
 }
 
-/* line 70, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 66, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__intranet--cards {
   display: flex;
   gap: 1rem;
@@ -839,54 +834,62 @@ iframe {
   margin: 0rem .6rem;
 }
 
-/* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 74, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__card {
   background-color: #fff;
   padding: 1rem;
   border-radius: 10%;
   border: 2px solid #000;
+  text-align: center;
 }
 
-/* line 84, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 81, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__card:hover {
   transition: all .6s;
   background-color: #8D2702;
   border: 2px solid #fff;
 }
 
-/* line 90, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 87, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__card:hover .central__card--link {
   color: #fff;
 }
 
 @media (max-width: 420px) {
-  /* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 74, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__card {
     padding: .4rem;
   }
 }
 
-/* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 96, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__card--link {
   font-family: "Unica One", cursive;
   color: #000;
+  margin-bottom: .5rem;
 }
 
 @media (max-width: 420px) {
-  /* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 96, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__card--link {
     font-size: 1.2rem;
   }
 }
 
-/* line 108, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__card--a {
+  background-color: #FB5012;
+  padding: .5rem;
+}
+
+/* line 112, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__card--ico {
   width: 60px;
   margin: 0 auto;
 }
 
 @media (max-width: 420px) {
-  /* line 108, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+  /* line 112, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
   .central__card--ico {
     width: 40px;
   }

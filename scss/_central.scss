@@ -30,10 +30,6 @@
 }
 
 iframe {
-
-    background-color: springgreen;
-
-
     @include celular {
         width: 300px;
         margin: 0 .5rem;
@@ -80,6 +76,7 @@ iframe {
     padding: 1rem;
     border-radius: 10%;
     border: 2px solid #000;
+    text-align: center;
 
         &:hover {
             transition: all .6s;
@@ -99,10 +96,17 @@ iframe {
 .central__card--link {
     font-family: $fonte-titulo;
     color: #000;
+    margin-bottom: .5rem;
 
         @include celular {
             font-size: 1.2rem;
         }
+}
+
+
+.central__card--a {
+    background-color: $cor-header;
+    padding: .5rem;
 }
 
 .central__card--ico {
@@ -113,3 +117,4 @@ iframe {
             width: 40px;
         }
 }
+
