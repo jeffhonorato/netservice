@@ -132,6 +132,7 @@ iframe {
     color: #fff;
     border-radius: 10%;
     border: 1px solid #000;
+    cursor: pointer;
         
         &:hover {
             background-color: $cor-titulo;
@@ -157,6 +158,10 @@ iframe {
     display: none;
 }
 
+.central__modal--box.ativo {
+    display: block;
+}
+
 .central__modal {
     // place-content: center;
     // align-items: center;
@@ -171,6 +176,15 @@ iframe {
     bottom: 0;
     right: 0;
     overflow: auto;
+}
+
+.modal__fechar {
+    width: 60px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+
+    
 }
 
 

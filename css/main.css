@@ -908,9 +908,10 @@ img {
   color: #fff;
   border-radius: 10%;
   border: 1px solid #000;
+  cursor: pointer;
 }
 
-/* line 136, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 137, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__card--a:hover {
   background-color: #8D2702;
   color: #fff;
@@ -924,7 +925,7 @@ img {
 }
 
 /*************** MODAL ***************/
-/* line 147, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 148, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__modal--box {
   background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
@@ -938,7 +939,12 @@ img {
   display: none;
 }
 
-/* line 160, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+/* line 161, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.central__modal--box.ativo {
+  display: block;
+}
+
+/* line 165, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
 .central__modal {
   background-color: aqua;
   max-width: 500px;
@@ -950,6 +956,14 @@ img {
   bottom: 0;
   right: 0;
   overflow: auto;
+}
+
+/* line 181, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_central.scss */
+.modal__fechar {
+  width: 60px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
 }
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/_contato.scss */
