@@ -83,12 +83,15 @@ iframe {
     border: 2px solid #000;
     width: 200px;
   
-    
-
         &:hover {
             transition: all .6s;
-            border: 2px solid #fff;
+            background-color: $cor-corpo;
         }
+
+        &:hover .central__card--info {
+            color: #fff;
+        }
+        
 
         @include celular {
             padding: .4rem;
@@ -270,6 +273,10 @@ iframe {
         @include celular {
             font-size: .8rem;
         }
+}
+
+.js-scrooll.ativo {
+    overflow: hidden;
 }
 
 
