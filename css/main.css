@@ -8,27 +8,27 @@
   box-sizing: border-box;
 }
 
-/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
 body {
   overflow: visible;
 }
 
-/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
+/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
+/* line 25, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
+/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
+/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/netservice/scss/main.scss */
 img {
   max-width: 100%;
   display: block;
