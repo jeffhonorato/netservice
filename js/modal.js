@@ -2,7 +2,6 @@ const modalBox = () => {
     const btnAtendimento = document.querySelector(".js-atendimento");
     const modal = document.querySelector(".js-modal-box");
     const btnFechar = document.querySelector(".js__modal--btnFechar");
-    const bodyScroll = document.querySelector(".js-scrooll");
     
     btnAtendimento.addEventListener("click", () => {
         modal.classList.add("ativo");
@@ -15,7 +14,6 @@ const modalBox = () => {
 };
 
 const modalScroolDesativado = () => {
-    const boxModal = document.querySelector(".js-modal-box");
     const atendimentoBtn = document.querySelector(".js-atendimento");
     const bodyScroll = document.querySelector(".js-scrooll");
     const buttonFechar = document.querySelector(".js__modal--btnFechar");
@@ -27,8 +25,8 @@ const modalScroolDesativado = () => {
     buttonFechar.addEventListener("click", () => {
         bodyScroll.classList.remove("ativo");
     });
-}
+};
 
 
 modalBox();
-modalScroolDesativado()
+modalScroolDesativado();
